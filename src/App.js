@@ -34,6 +34,7 @@ function App() {
       <Button variant="contained" color="primary" onClick={()=>alert("Kkom!")}>
         Welcom to kkom-girack1
       </Button> 
+      <img src="https://user-images.githubusercontent.com/4848127/149246793-27be742f-b994-434f-bd6e-41b1bf124eaf.png"/>
     </div>
   );
 }
