@@ -1,8 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Button from '@material-ui/core/Button'; 
 
 function App() {
   return (
+    /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,6 +22,12 @@ function App() {
           Learn React
         </a>
       </header>
+    </div>*/
+    <div>
+      Welcom to kkom-girack<br></br>
+      <Button variant="contained" color="primary">
+        Welcom to kkom-girack
+      </Button> 
     </div>
   );
 }
