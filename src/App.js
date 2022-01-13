@@ -49,8 +49,8 @@ function App() {
       </Grid>
 
       Welcom to kkom-girack<br></br>
-      <Button variant="contained" color="primary" onClick={()=>alert("Kkom!!!")}>
-        Welcom to kkom-girack
+      <Button variant="contained" color="primary" onClick={()=>alert("Kkom!!!@@@!")}>
+        Welcom to kkom-girack1
       </Button> 
     </div>
   );
