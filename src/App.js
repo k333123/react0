@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Button from '@material-ui/core/Button'; 
+import {Grid, Box, Button} from '@material-ui/core'; 
 
 function App() {
   return (
@@ -24,6 +24,30 @@ function App() {
       </header>
     </div>*/
     <div>
+       
+      <Grid container spacing={2}>
+        <Grid item xs={8}>
+          <Box bgcolor="info.main" color="info.contrastText" p={2}>
+            xs=8
+          </Box>
+        </Grid>
+        <Grid item xs={4}>
+          <Box bgcolor="info.main" color="info.contrastText" p={2}>
+            xs=4
+          </Box>
+        </Grid>
+        <Grid item xs={4}>
+          <Box bgcolor="info.main" color="info.contrastText" p={2}>
+            xs=4
+          </Box>
+        </Grid>
+        <Grid item xs={8}>
+          <Box bgcolor="info.main" color="info.contrastText" p={2}>
+            xs=8
+          </Box>
+        </Grid>
+      </Grid>
+
       Welcom to kkom-girack<br></br>
       <Button variant="contained" color="primary">
         Welcom to kkom-girack
